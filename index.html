@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Những Bài Hát Nổi Tiếng Của Jack</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7fa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #1abc9c;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h2 {
+            color: #2c3e50;
+            font-size: 2rem;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 5px;
+        }
+        .bio, .achievements {
+            margin: 20px 0;
+        }
+        .bio p, .achievements p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #7f8c8d;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            font-size: 1.1rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .cta {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .cta a {
+            background-color: #1abc9c;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .cta a:hover {
+            background-color: #16a085;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 2000px; /* Tạo không gian cuộn trang */
+            background-color: #f4f4f9;
+        }
+        /* Nút scroll to top */
+        #scrollToTopBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #1abc9c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 15px;
+            font-size: 16px;
+            cursor: pointer;
+            display: none; /* Ẩn nút mặc định */
+            transition: background-color 0.3s;
+        }
+        #scrollToTopBtn:hover {
+            background-color: #16a085;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Nút Dịch Chuyển Lên Đầu Trang -->
+    <button id="scrollToTopBtn"> 👆</button>
+
+    <script>
+        // Lấy nút "Lên đầu trang"
+        var mybutton = document.getElementById("scrollToTopBtn");
+
+        // Khi người dùng cuộn xuống 20px từ đầu trang, nút sẽ xuất hiện
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block"; // Hiển thị nút
+            } else {
+                mybutton.style.display = "none"; // Ẩn nút
+            }
+        };
+
+        // Khi người dùng click vào nút, trang sẽ cuộn lên đầu
+        mybutton.onclick = function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' }); // Cuộn mượt lên đầu trang
+        };
+    </script>
+
+<header>
+    <h1>Những Bài Hát Nổi Tiếng Của Jack</h1>
+</header>
+
+<div class="container">
+    <section class="bio">
+        <h2>Thông Tin Cá Nhân</h2>
+        <p>Trịnh Trần Phương Tuấn là một chuyên gia trong lĩnh vực công nghệ thông tin, với hơn 10 năm kinh nghiệm trong phát triển phần mềm và quản lý dự án công nghệ. Anh có niềm đam mê mãnh liệt với việc tạo ra các sản phẩm sáng tạo và giải pháp đột phá cho những thách thức khó khăn trong ngành. Với sự nhạy bén trong công nghệ và khả năng lãnh đạo đội ngũ, anh đã gặt hái được nhiều thành công đáng kể.</p>
+    </section>
+
+    <section class="achievements">
+        <h2>Thành Tựu Nổi Bật</h2>
+        <p>Trong sự nghiệp của mình, Trịnh Trần Phương Tuấn đã đạt được nhiều thành tựu đáng chú ý:</p>
+        <ul>
+            <li>Giải thưởng Sáng tạo công nghệ năm 2023 cho các dự án đổi mới trong lĩnh vực phần mềm.</li>
+            <li>Chứng nhận Phát triển phần mềm xuất sắc từ các tổ chức quốc tế uy tín.</li>
+            <li>Đóng góp vào các dự án công nghệ quốc gia, bao gồm những giải pháp cho thành phố thông minh.</li>
+            <li>Nhận nhiều giải thưởng về sáng tạo trong công việc và quản lý dự án.</li>
+        </ul>
+    </section>
+
+    <section class="cta">
+        <p>Khám phá thêm về các dự án và thành tựu của Trịnh Trần Phương Tuấn.</p>
+    
+    </section>
+</div>
+<div> 
+<div class="container">
+    <section class="bio">
+        <h2>Một số hình ảnh về Jack<h2
+        <div/>
+     <img src="images/anh1.jpg">
+       <img scr="images/anh2.jpg">
+        <img src="images/phuongtuan.jpg" width="400">
+     <img scr="images/phuongt.jpg"> 
+<div> 
+<div class="container">
+    <section class="bio">
+        <h2>Những Bài Hát Nổi Tiếng Của Anh</h2>
+        <h6>1.Đom Đóm</h6>
+<a href="about.html"> 👆Click here👆 </a>
+
+        <h6>2.Việt Nam Tôi</h6>
+<a href="about2.html"> 👆Click here👆 </a>
+
+        <h6>3.Hồng Nhan</h6>
+<a href="about3.html"> 👆Click here👆 </a>
+
+        <section class="cta">
+    <a href="#">Đầu Trang</a>
+
+</body>
+</html>
